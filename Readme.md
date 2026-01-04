@@ -26,7 +26,7 @@ All bugs are **intentional** and categorized by **difficulty & academic level**.
 
 ## 🗂 Repository Structure
 
-Push-it-Up
+Bug_hunt
 
 │
 
