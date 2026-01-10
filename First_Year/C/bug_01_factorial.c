@@ -9,8 +9,9 @@ int factorial(int n)
     int result = 1;
     int i = 1;
     while (i <= n)
-    {
+    { 
         result *= i;
+        i++;  //Fixed: Added i++ as i value needs to be incremented
     }
     return result;
 }
