@@ -6,7 +6,8 @@ def sum_numbers(n):
     """Calculate sum of numbers from 1 to n"""
     total = 0
     i = 0
-    while i < n:
+    #fixed the inclusion of the nth element in the loop by adding "=" to the condition
+    while i <= n:
         total += i
         i += 1
     return total

@@ -7,7 +7,7 @@
 int sum_array(int arr[], int size)
 {
     int sum = 0;
-    for (int i = 0; i <= size; i++)
+    for (int i = 0; i < size; i++)
     {
         sum += arr[i];
     }
@@ -17,7 +17,7 @@ int sum_array(int arr[], int size)
 int main()
 {
     int numbers[] = {1, 2, 3, 4, 5};
-    int result = sum_array(numbers, 5);
+    int result = sum_array(numbers, (sizeof(numbers)/sizeof(numbers[0])));
     printf("Sum: %d\n", result); // Expected: 15
     return 0;
 }

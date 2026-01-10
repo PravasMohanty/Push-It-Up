@@ -8,9 +8,11 @@ int factorial(int n)
 {
     int result = 1;
     int i = 1;
+    // Added missing incrementation of i in the while loop with "i++;"
     while (i <= n)
     {
         result *= i;
+        i++;
     }
     return result;
 }
